@@ -15,3 +15,44 @@ body {
   font-size: 1.4rem;
   font-family: sans-serif;
 }
+
+#container {
+  height: 100vh;
+  background-color: #dedede;
+
+  display: flex;
+  align-items: center;
+}
+
+.heading-2 {
+  font-size: 3rem;
+}
+
+.form {
+  height: 30rem;
+  padding: 1rem 3rem;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__heading {
+  margin-bottom: 2rem;
+}
+
+.form__label {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form__input {
+  font-size: 1.8rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  align-self: center;
+  padding: 1rem 2rem;
+}
