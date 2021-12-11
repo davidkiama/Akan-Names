@@ -13,6 +13,7 @@ html {
 
 body {
   font-size: 1.4rem;
+  line-height: 1.6rem;
   font-family: sans-serif;
 }
 
@@ -38,6 +39,10 @@ body {
 /* Components */
 .heading-2 {
   font-size: 3rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .warn {
@@ -89,10 +94,10 @@ body {
 
 .form__input {
   font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
-  margin-top: 2rem;
   align-self: center;
   padding: 1rem 2rem;
 }

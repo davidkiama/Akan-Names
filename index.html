@@ -14,13 +14,22 @@
     <div id="container">
       <!-- Content goes  here-->
 
-      <p class="banner succ">Notification<span class="times"> &times;</span></p>
+      <p class="banner hidden">
+        Notification<span class="times"> &times;</span>
+      </p>
 
-      <form action="#" class="form">
+      <form action="submit" class="form">
         <h2 class="heading-2 form__heading">Akan Names</h2>
 
+        <label for="gender" class="form__label">Select gender</label>
+        <select class="form__input gender" required>
+          <option value=""></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
         <label for="data" class="form__label">Enter your birth date</label>
-        <input type="date" class="form__input" />
+        <input type="date" required class="form__input date" />
 
         <input type="submit" value="Submit" class="btn" />
       </form>
