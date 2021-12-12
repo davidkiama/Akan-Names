@@ -23,6 +23,9 @@ const arrFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
+  closeBanner();
+  displayBanner("succ");
+
   let output = "";
   let arr = [];
   const dateVal = date.value;
@@ -33,17 +36,8 @@ form.addEventListener("submit", function (e) {
 
   //changing the names array depending on the gender
   genderVal === "male" ? (arr = arrMale) : (arr = arrFemale);
-
+  //generating the output msg
   output = `Your Akan name is ${arr[dateIndex]} `;
-
-  if (dateVal) {
-    closeBanner();
-    displayBanner("succ");
-  } else {
-    closeBanner();
-    displayBanner("warn");
-  }
-
   banner.innerHTML = output + `<span class="times"> &times;</span>`;
 
   // clears input
