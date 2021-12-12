@@ -36,6 +36,7 @@ form.addEventListener("submit", function (e) {
   genderVal === "male" ? (arr = arrMale) : (arr = arrFemale);
   //generating the output msg
   output = `Your Akan name is ${arr[dateIndex]} `;
+
   banner.innerHTML = output + `<span class="times"> &times;</span>`;
   displayBanner("succ");
 
@@ -47,5 +48,5 @@ form.addEventListener("submit", function (e) {
 // On load
 closeBanner();
 
-//
+// close the banner when clicked
 banner.addEventListener("click", closeBanner);
