@@ -44,6 +44,10 @@ form.addEventListener("submit", function (e) {
   }
 
   banner.innerHTML = output + `<span class="times"> &times;</span>`;
+
+  // clears input
+  gender.value = "";
+  date.value = "";
 });
 
 // On load
