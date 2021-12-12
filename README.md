@@ -8,7 +8,7 @@ This is a web application that generates Akan Names depending on the gender and 
 
 ## Demo
 
-[Live Demo]()
+[Live Demo](https://davidkiama.github.io/Akan-Names/)
 
 ## Technologies Used
 
@@ -22,11 +22,11 @@ This is a web application that generates Akan Names depending on the gender and 
 
 ## Project setup and instructions
 
-I have deployed the page and here is the [link](). You can also download the entire folder and open the html file on your browser.
+I have deployed the page and here is the [link](https://davidkiama.github.io/Akan-Names/). You can also download the entire folder and open the html file on your browser.
 
 ## Support and contact details
 
-If you have any questions, ideas or concerns, kindly reach out to me via email : davidkiama98@gmail.com
+If you have any questions, ideas or concerns, kindly reach out to me via email : david.kiama@student.moringaschool.com
 
 ## Licence
 
