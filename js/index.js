@@ -1,6 +1,7 @@
 "use strict";
 
 const banner = document.querySelector(".banner");
+const closeIcon = document.querySelector(".times");
 const date = document.querySelector(".date");
 const gender = document.querySelector(".gender");
 const form = document.querySelector(".form");
@@ -52,3 +53,6 @@ form.addEventListener("submit", function (e) {
 
 // On load
 closeBanner();
+
+//
+banner.addEventListener("click", closeBanner);
