@@ -73,6 +73,11 @@ body {
   height: fit-content;
 }
 
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
 .form {
   height: 30rem;
   padding: 1rem 3rem;
