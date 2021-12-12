@@ -1,9 +1,8 @@
 "use strict";
 
 const banner = document.querySelector(".banner");
-const closeIcon = document.querySelector(".times");
-const date = document.querySelector(".date");
 const gender = document.querySelector(".gender");
+const date = document.querySelector(".date");
 const form = document.querySelector(".form");
 
 const displayBanner = function (msg) {
@@ -24,12 +23,11 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   closeBanner();
-  displayBanner("succ");
 
   let output = "";
   let arr = [];
-  const dateVal = date.value;
   const genderVal = gender.value;
+  const dateVal = date.value;
 
   const day = new Date(dateVal);
   const dateIndex = day.getDay(); //generate the day of the week (0-6)
@@ -39,6 +37,7 @@ form.addEventListener("submit", function (e) {
   //generating the output msg
   output = `Your Akan name is ${arr[dateIndex]} `;
   banner.innerHTML = output + `<span class="times"> &times;</span>`;
+  displayBanner("succ");
 
   // clears input
   gender.value = "";
